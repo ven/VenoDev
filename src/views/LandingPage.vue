@@ -52,7 +52,10 @@
               <li><i class="fas fa-database mr-2"></i>MySQL, PostgreSQL, SQLite, Redis</li>
               <li><i class="fab fa-vuejs mr-2"></i>Vue.js</li>
               <li><i class="fab fa-node mr-2"></i>Node.js (Express)</li>
+              <li><i class="fas fa-server mr-2"></i>Apache &amp; Nginx</li>
               <li><i class="fab fa-github mr-2"></i>Git</li>
+              <li><i class="fab fa-ubuntu mr-2"></i>Ubuntu Server</li>
+              <li><i class="fab fa-css3-alt mr-2"></i>TailwindCSS &amp; Bulma</li>
               <li><i class="fab fa-discord mr-2"></i>Discord.py &amp; Discord.js</li>
             </ul>
           </div>
