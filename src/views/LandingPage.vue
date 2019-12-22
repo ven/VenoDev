@@ -11,13 +11,13 @@
 
           <div class="flex-auto items-center justify-between flex-wrap mt-4 pb-8">
 
-            <button class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full mr-3">
+            <a href="https://discord.gg/3eHf5j2" class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full mr-3">
               <i class="fas fa-envelope mr-2"></i>Contact
-            </button>
+            </a>
 
-            <button class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full">
+            <a href="https://top.gg/user/204616460797083648" class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full">
               <i class="fas fa-meteor mr-2"></i>Bots
-            </button>
+            </a>
 
           </div>
         </div>
