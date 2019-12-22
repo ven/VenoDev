@@ -97,6 +97,6 @@ hr {
     height: 2px;
     margin-top: 5px;
     margin-bottom: 15px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    background-color: white;
 }
 </style>

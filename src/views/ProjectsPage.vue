@@ -33,6 +33,6 @@
 hr {
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+    background-color: white;
 }
 </style>
