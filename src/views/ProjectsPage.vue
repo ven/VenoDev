@@ -10,18 +10,18 @@
                 <section class="text-white py-16">
                     <div class="px-2">
                         <div class="flex flex-wrap -mx-2 text-center">
-                            <a class="sm:w-1/2 w-full px-2">
-                               <div href="https://top.gg/bot/579011189170896932/" class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8">
+                            <a href="https://top.gg/bot/579011189170896932/" class="sm:w-1/2 w-full px-2">
+                               <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
                                     <div class="font-bold text-2xl"><i class="fab fa-discord mr-3"></i>Centro</div>
                                 </div>
                             </a>
                             <a href="https://top.gg/bot/579011189170896932/" class="sm:w-1/2 w-full px-2">
-                                <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8">
+                                <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
                                     <div class="font-bold text-2xl"><i class="fab fa-discord mr-3"></i>Apex Tracker</div>
                                 </div>
                             </a>
                             <a href="https://risky.world/" class="sm:w-1/2 w-full px-2">
-                                <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8">
+                                <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
                                     <div class="font-bold text-2xl"><i class="fas fa-globe-europe mr-3"></i>Risky World</div>
                                 </div>
                             </a>
