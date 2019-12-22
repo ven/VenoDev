@@ -39,7 +39,7 @@
 
           <hr>
 
-          <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">17 year old</span> web developer from the 🇬🇧 <span class="font-bold hover:text-purple-300">United Kingdom</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.html">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
+          <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">17 year old</span> web developer from the 🇬🇧 <span class="font-bold hover:text-purple-300">United Kingdom</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
         </div>
 
         <div class="container skills text-gray-200 bg-purple-700 rounded-lg p-8 mt-8 shadow-lg" v-scroll-reveal="{ delay: 150 }">
