@@ -72,12 +72,10 @@ export default {
 <style lang="scss" scoped>
 .add-spin {
   animation: spin 2s ease;
-  /*Set our animation play state to paused initially */
   animation-play-state: paused; 
 }
 
 .add-spin:hover {
-  /* Toggle our animation play state to running when we are hovering over our sticker */
   animation-play-state: running;
 }
 
