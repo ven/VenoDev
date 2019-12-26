@@ -15,7 +15,7 @@
                                     <div class="font-bold text-2xl"><i class="fab fa-discord mr-3"></i>Centro</div>
                                 </div>
                             </a>
-                            <a href="https://top.gg/bot/579011189170896932/" class="sm:w-1/2 w-full px-2">
+                            <a href="https://top.gg/bot/549006831847079958" class="sm:w-1/2 w-full px-2">
                                 <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
                                     <div class="font-bold text-2xl"><i class="fab fa-discord mr-3"></i>Apex Tracker</div>
                                 </div>
@@ -23,6 +23,11 @@
                             <a href="https://risky.world/" class="sm:w-1/2 w-full px-2">
                                 <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
                                     <div class="font-bold text-2xl"><i class="fas fa-globe-europe mr-3"></i>Risky World</div>
+                                </div>
+                            </a>
+                            <a href="https://github.com/venoras/Huecord/" class="sm:w-1/2 w-full px-2">
+                                <div class="info container bg-purple-800 p-16 rounded-lg shadow-lg mb-8 hover:bg-purple-900">
+                                    <div class="font-bold text-2xl"><i class="fas fa-lightbulb mr-3"></i>Huecord</div>
                                 </div>
                             </a>
                         </div>
