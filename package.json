@@ -11,6 +11,8 @@
     "core-js": "^3.4.3",
     "tailwindcss": "^1.1.4",
     "vue": "^2.6.10",
+    "vue-carousel": "^0.18.0",
+    "vue-kinesis": "^1.0.4",
     "vue-mouse-parallax": "^1.2.2",
     "vue-page-transition": "^0.2.2",
     "vue-router": "^3.1.3",

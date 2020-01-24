@@ -9,7 +9,7 @@
           <div class="text-5xl font-bold">Hi, I'm <span class="underline hover:text-purple-300">Ven</span>.</div>
           <div class="text-2xl font-normal text-gray-300">Full-stack web &amp; Discord bot developer.</div>
 
-          <div class="flex-auto items-center justify-between flex-wrap mt-4 pb-8">
+          <div class="flex-auto items-center justify-between flex-wrap mt-4 pb-12 px-4">
 
             <a href="https://discord.gg/3eHf5j2" class="shadow-xl bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded-full mr-3">
               <i class="fab fa-discord mr-2"></i>Contact
@@ -33,39 +33,63 @@
 
     <div class="hero pb-32 mx-8 my-8 pt-20">
       <div class="container text-black text-left mx-auto font-sans">
+
+        <kinesis-container>
+
+          <kinesis-element type="depth_inv" :strength="5">
         
-        <div class="container about text-gray-200 bg-purple-700 rounded-lg p-8 shadow-lg" v-scroll-reveal="{ delay: 150 }">
-          <div class="text-4xl font-bold"><i class="fas fa-info-circle mr-3"></i>About Me</div>
+            <div class="container about text-gray-200 bg-purple-700 rounded-lg p-8 shadow-lg" v-scroll-reveal="{ delay: 150 }">
+              <div class="text-4xl font-bold"><i class="fas fa-info-circle mr-3"></i>About Me</div>
 
-          <hr>
+              <hr>
 
-          <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">17 year old</span> web developer from the 🇬🇧 <span class="font-bold hover:text-purple-300">United Kingdom</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
-        </div>
+              <div class="text-xl font-normal mt-2">I'm a <span class="font-bold hover:text-purple-300">17 year old</span> web developer from the 🇬🇧 <span class="font-bold hover:text-purple-300">United Kingdom</span> who enjoys working with both <i class="fab fa-js mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://www.ecma-international.org/memento/tc39.htm">Javascript</a> &amp; <i class="fab fa-python mr-2"></i><a class="font-bold underline hover:text-purple-300" href="https://python.org/">Python</a>.</div>
+            </div>
+          
+          </kinesis-element>
+        
+        </kinesis-container>
 
-        <div class="container skills text-gray-200 bg-purple-700 rounded-lg p-8 mt-8 shadow-lg" v-scroll-reveal="{ delay: 150 }">
-          <div class="text-4xl font-bold"><i class="fas fa-bookmark mr-3"></i>Skills</div>
+        <kinesis-container>
 
-          <hr>
+          <kinesis-element type="depth_inv" :strength="5">
 
-          <div class="text-xl font-normal mt-2">
-            <ul class="list-disc ml-4">
-              <li><i class="fas fa-database mr-2"></i>MySQL, PostgreSQL, SQLite, Redis</li>
-              <li><i class="fab fa-vuejs mr-2"></i>Vue.js</li>
-              <li><i class="fab fa-node mr-2"></i>Node.js (Express)</li>
-              <li><i class="fas fa-server mr-2"></i>Apache &amp; Nginx</li>
-              <li><i class="fab fa-github mr-2"></i>Git</li>
-              <li><i class="fab fa-ubuntu mr-2"></i>Ubuntu Server</li>
-              <li><i class="fab fa-css3-alt mr-2"></i>TailwindCSS &amp; Bulma</li>
-              <li><i class="fab fa-discord mr-2"></i>Discord.py &amp; Discord.js</li>
-            </ul>
-          </div>
-        </div>
+            <div class="container skills text-gray-200 bg-purple-700 rounded-lg p-8 mt-8 shadow-lg" v-scroll-reveal="{ delay: 150 }">
+              <div class="text-4xl font-bold"><i class="fas fa-bookmark mr-3"></i>Skills</div>
 
-        <router-link to="projects">
-          <div class="container projects text-gray-200 bg-purple-700 rounded-lg p-8 mt-8 shadow-lg text-center hover:bg-purple-600" v-scroll-reveal="{ delay: 150 }">
-            <div class="text-4xl font-bold"><i class="fas fa-arrow-right mr-3"></i>View Projects</div>
-          </div>
-        </router-link>
+              <hr>
+
+              <div class="text-xl font-normal mt-2">
+                <ul class="list-disc ml-4">
+                  <li><i class="fas fa-database mr-2"></i>MySQL, PostgreSQL, SQLite, Redis</li>
+                  <li><i class="fab fa-vuejs mr-2"></i>Vue.js</li>
+                  <li><i class="fab fa-node mr-2"></i>Node.js (Express)</li>
+                  <li><i class="fas fa-server mr-2"></i>Apache &amp; Nginx</li>
+                  <li><i class="fab fa-github mr-2"></i>Git</li>
+                  <li><i class="fab fa-ubuntu mr-2"></i>Ubuntu Server</li>
+                  <li><i class="fab fa-css3-alt mr-2"></i>TailwindCSS &amp; Bulma</li>
+                  <li><i class="fab fa-discord mr-2"></i>Discord.py &amp; Discord.js</li>
+                </ul>
+              </div>
+            </div>
+          
+          </kinesis-element>
+        
+        </kinesis-container>
+
+        <kinesis-container>
+
+          <kinesis-element type="scale" :strength="1">
+
+            <router-link to="projects">
+              <div class="container projects text-gray-200 bg-purple-700 rounded-lg p-8 mt-8 shadow-lg text-center hover:bg-purple-600" v-scroll-reveal="{ delay: 150 }">
+                <div class="text-4xl font-bold"><i class="fas fa-arrow-right mr-3"></i>View Projects</div>
+              </div>
+            </router-link>
+          
+          </kinesis-element>
+        
+        </kinesis-container>
 
       </div>
     </div>
